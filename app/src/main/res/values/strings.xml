@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hintWeightNumEditText">Enter your weight</string>
+    <string name="hintHeightNumEditText">Enter your height</string>
+    <string name="hintAgeNumEditText">Enter your age</string>
+    <string name="firstHeaderTextView">BMI index</string>
+    <string name="secondHeaderTextView">Description of the result</string>
+
+
+    <string name="calculateBtn">Calculate</string>
+    <string name="resultNumTextView">BMI result!</string>
+    <string name="resultStringTextView">Result description!</string>
+</resources>
