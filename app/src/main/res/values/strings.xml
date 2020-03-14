@@ -12,4 +12,13 @@
     <string name="calculateBtn">Calculate</string>
     <string name="resultNumTextView">BMI result!</string>
     <string name="resultStringTextView">Result description!</string>
+
+
+    <string name="descriptionUnderweight">Underweight</string> <!--Niedowaga-->
+    <string name="descriptionCorrectWeight">Correct weight</string> <!--Prawidłowa waga-->
+    <string name="descriptionOverweight">Overweight</string> <!--Nadwaga-->
+    <string name="descriptionObesity">Obesity</string> <!--Otyłość-->
+    <string name="descriptionExtremeObesity">Extreme obesity</string> <!--Skrajna otyłość-->
+    <string name="descriptionResultUnderEighteen">BMI index is only for adults, cannot be used for children!</string>
+    <string name="descriptionResultName">Error, propably wrong data.</string>
 </resources>

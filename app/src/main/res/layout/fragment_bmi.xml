@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
-    tools:layout_editor_absoluteY="56dp"
-    tools:showIn="@layout/activity_main">
+    android:background="@android:color/holo_blue_light">
 
     <EditText
         android:id="@+id/weightNumEditText"
@@ -59,7 +56,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstHeaderTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/firstHeaderTextView"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="449dp" />
 
     <EditText
         android:id="@+id/ageNumEditText"
@@ -108,7 +107,6 @@
         android:id="@+id/resultStringTextView"
         android:layout_width="330dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="45dp"
         android:background="@drawable/border_style"
         android:gravity="center"
         android:importantForAutofill="no"
@@ -117,6 +115,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondHeaderTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/secondHeaderTextView"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="573dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
