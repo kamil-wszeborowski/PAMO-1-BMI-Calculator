@@ -25,14 +25,14 @@ public class BmiFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_bmi, container, false);
+        View view = inflater.inflate(R.layout.fragment_bmi, container, false);
 
-        weightNumEditText = (EditText) rootView.findViewById(R.id.weightNumEditText);
-        heightNumEditText = (EditText) rootView.findViewById(R.id.heightNumEditText);
-        ageNumEditText = (EditText) rootView.findViewById(R.id.ageNumEditText);
-        resultNumTextView = (TextView) rootView.findViewById(R.id.resultNumTextView);
-        resultStringTextView = (TextView) rootView.findViewById(R.id.resultStringTextView);
-        calculateBtn = (Button) rootView.findViewById(R.id.calculateBtn);
+        weightNumEditText = (EditText) view.findViewById(R.id.weightNumEditText);
+        heightNumEditText = (EditText) view.findViewById(R.id.heightNumEditText);
+        ageNumEditText = (EditText) view.findViewById(R.id.ageNumEditText);
+        resultNumTextView = (TextView) view.findViewById(R.id.resultNumTextView);
+        resultStringTextView = (TextView) view.findViewById(R.id.resultStringTextView);
+        calculateBtn = (Button) view.findViewById(R.id.calculateBtn);
 
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +41,7 @@ public class BmiFragment extends Fragment {
             }
         });
 
-        return rootView;
+        return view;
     }
 
     public void calculateBmi(){

@@ -2,12 +2,114 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/holo_purple">
 
     <TextView
+        android:id="@+id/caloriesFirstHeaderTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calories Fragment"
-        android:textSize="30sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/border_color"
+        android:text="@string/caloriesFirstHeaderTextView"
+        android:textSize="32sp"
+        android:textStyle="bold"
         android:layout_centerInParent="true"/>
+
+    <Spinner
+        android:id="@+id/caloriesGenderSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/caloriesFirstHeaderTextView"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/caloriesWeightNumEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesGenderSpinner"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/caloriesHintWeightNumEditText"
+        android:importantForAutofill="no"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/caloriesHeightNumEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesWeightNumEditText"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/caloriesHintHeightNumEditText"
+        android:importantForAutofill="no"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/caloriesAgeNumEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesHeightNumEditText"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/caloriesHintAgeNumEditText"
+        android:importantForAutofill="no"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/caloriesCalculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesAgeNumEditText"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:text="@string/caloriesCalculateBtn" />
+
+    <TextView
+        android:id="@+id/caloriesSecondHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesCalculateBtn"
+        android:importantForAutofill="no"
+        android:text="@string/caloriesSecondHeaderTextView"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/caloriesResultNumTextView"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/caloriesSecondHeaderTextView"
+        android:importantForAutofill="no"
+        android:text="@string/caloriesResultNumTextView"
+        android:textSize="24sp"/>
+
+
 </RelativeLayout>

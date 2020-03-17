@@ -1,24 +1,82 @@
 <resources>
-    <string name="app_name">BMI Calculator</string>
-    <string name="action_settings">Settings</string>
+    <!--App-->
+        <string name="app_name">BMI Calculator</string>
+        <string name="action_settings">Settings</string>
+    <!--/App-->
 
-    <string name="hintWeightNumEditText">Enter your weight</string>
-    <string name="hintHeightNumEditText">Enter your height</string>
-    <string name="hintAgeNumEditText">Enter your age</string>
-    <string name="firstHeaderTextView">BMI index</string>
-    <string name="secondHeaderTextView">Description of the result</string>
+    <!--Navigation-->
+        <string name="navHomeMenuItem">Home</string>
+        <string name="navBmiMenuItem">BMI</string>
+        <string name="navCaloriesMenuItem">Calories</string>
+        <string name="navRecipeMenuItem">Recommended recipe</string>
+    <!--/Navigation-->
 
+    <!--Home-->
+        <string name="homeFirstHeaderTextView">Good diet!</string>
+        <string name="homeFirstDescriptionImageView">Food tree</string>
+    <!--/Home-->
 
-    <string name="calculateBtn">Calculate</string>
-    <string name="resultNumTextView">BMI result!</string>
-    <string name="resultStringTextView">Result description!</string>
+    <!--Bmi-->
+        <string name="hintWeightNumEditText">Enter your weight</string>
+        <string name="hintHeightNumEditText">Enter your height</string>
+        <string name="hintAgeNumEditText">Enter your age</string>
+        <string name="bmiFirstHeaderTextView">BMI index</string>
+        <string name="bmiSecondHeaderTextView">Description of the result</string>
+        <string name="calculateBtn">Calculate</string>
+        <string name="resultNumTextView">BMI result!</string>
+        <string name="resultStringTextView">Result description!</string>
+    <!--/Bmi-->
 
+    <!--Calories-->
+        <string name="caloriesFirstHeaderTextView">Basic metabolism Harris-Benedict formula</string>
+        <string name="caloriesHintWeightNumEditText">Enter your weight</string>
+        <string name="caloriesHintHeightNumEditText">Enter your height</string>
+        <string name="caloriesHintAgeNumEditText">Enter your age</string>
+        <string name="caloriesMale">Male</string>
+        <string-array name="caloriesGenderList">
+            <item>Male</item>
+            <item>Female</item>
+        </string-array>
 
-    <string name="descriptionUnderweight">Underweight</string> <!--Niedowaga-->
-    <string name="descriptionCorrectWeight">Correct weight</string> <!--Prawidłowa waga-->
-    <string name="descriptionOverweight">Overweight</string> <!--Nadwaga-->
-    <string name="descriptionObesity">Obesity</string> <!--Otyłość-->
-    <string name="descriptionExtremeObesity">Extreme obesity</string> <!--Skrajna otyłość-->
-    <string name="descriptionResultUnderEighteen">BMI index is only for adults, cannot be used for children!</string>
-    <string name="descriptionResultName">Error, propably wrong data.</string>
+        <string name="caloriesSecondHeaderTextView">Harris-Benedict formula result</string>
+        <string name="caloriesCalculateBtn">Calculate</string>
+        <string name="caloriesResultNumTextView">PPM result!</string>
+    <!--Calories-->
+
+    <!--Recipe-->
+        <string name="recipeFirstHeaderTextView">What to eat at the time of CoronaVirus ?</string>
+        <string name="recipeSecondHeaderTextView">Chicken soup!</string>
+        <string name="recipeSpecyficationTextView">Put the chicken, carrots, celery and onion in a large soup pot and cover with cold water.
+            Heat and simmer, uncovered, until the chicken meat falls off of the bones (skim off foam every so often).Take everything out of the pot.
+            Strain the broth. Pick the meat off of the bones and chop the carrots, celery and onion. Season the broth with salt,
+            pepper and chicken bouillon to taste, if desired. Return the chicken, carrots, celery and onion to the pot, stir together, and serve.
+        </string>
+        <string name="recipeThirdHeaderTextView">Ingredients:</string>
+        <string-array name="ingridientsList">
+            <item>1.(3 pound) whole chicken</item>
+            <item>2.carrots, halved</item>
+            <item>3.stalks celery, halved</item>
+            <item>4.large onion, halved</item>
+            <item>5.water to cover</item>
+            <item>6.salt and pepper to taste</item>
+            <item>7.teaspoon chicken bouillon granules (optional)</item>
+        </string-array>
+
+        <string name="recipeFirstDescriptionImageView">Chicken soup!</string>
+    <!--/Recipe-->
+
+    <!--For java -->
+        <string name="descriptionUnderweight">Underweight</string> <!--Niedowaga-->
+        <string name="descriptionCorrectWeight">Correct weight</string> <!--Prawidłowa waga-->
+        <string name="descriptionOverweight">Overweight</string> <!--Nadwaga-->
+        <string name="descriptionObesity">Obesity</string> <!--Otyłość-->
+        <string name="descriptionExtremeObesity">Extreme obesity</string> <!--Skrajna otyłość-->
+        <string name="descriptionResultUnderEighteen">BMI index is only for adults, cannot be used for children!</string>
+        <string name="descriptionResultName">Error, propably wrong data.</string>
+    <!--/For java -->
+
+    <!--Exception string-->
+        <string name="arithmeticException">Warning ArithmeticException: </string>
+        <string name="unknownException">Unknown: </string>
+    <!--Exception string-->
 </resources>

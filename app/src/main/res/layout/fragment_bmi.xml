@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light">
+    android:background="@android:color/holo_red_light">
 
     <EditText
         android:id="@+id/weightNumEditText"
@@ -32,34 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weightNumEditText" />
 
-    <Button
-        android:id="@+id/calculateBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:importantForAutofill="no"
-        android:text="@string/calculateBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ageNumEditText" />
-
-    <TextView
-
-        android:id="@+id/resultNumTextView"
-        android:layout_width="330dp"
-        android:layout_height="100dp"
-        android:background="@drawable/border_style"
-        android:gravity="center"
-        android:importantForAutofill="no"
-        android:text="@string/resultNumTextView"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstHeaderTextView"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="449dp" />
-
     <EditText
         android:id="@+id/ageNumEditText"
         android:layout_width="wrap_content"
@@ -73,14 +44,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heightNumEditText" />
 
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:importantForAutofill="no"
+        android:text="@string/calculateBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageNumEditText" />
+
     <TextView
-        android:id="@+id/firstHeaderTextView"
+        android:id="@+id/bmiFirstHeaderTextView"
         android:layout_width="165dp"
         android:layout_height="40dp"
         android:layout_marginTop="40dp"
         android:gravity="start|center_vertical"
         android:importantForAutofill="no"
-        android:text="@string/firstHeaderTextView"
+        android:text="@string/bmiFirstHeaderTextView"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,13 +71,27 @@
         app:layout_constraintTop_toBottomOf="@+id/calculateBtn" />
 
     <TextView
-        android:id="@+id/secondHeaderTextView"
+        android:id="@+id/resultNumTextView"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:background="@drawable/border_style"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:text="@string/resultNumTextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmiFirstHeaderTextView" />
+
+    <TextView
+        android:id="@+id/bmiSecondHeaderTextView"
         android:layout_width="165dp"
         android:layout_height="40dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="32dp"
         android:gravity="start|center_vertical"
         android:importantForAutofill="no"
-        android:text="@string/secondHeaderTextView"
+        android:text="@string/bmiSecondHeaderTextView"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,6 +103,8 @@
         android:id="@+id/resultStringTextView"
         android:layout_width="330dp"
         android:layout_height="100dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="45dp"
         android:background="@drawable/border_style"
         android:gravity="center"
         android:importantForAutofill="no"
@@ -114,9 +112,8 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondHeaderTextView"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="573dp" />
+        app:layout_constraintTop_toBottomOf="@+id/bmiSecondHeaderTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
