@@ -1,11 +1,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.bmicalculator.MainActivity">
+    <!--
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/navHomeMenuItem" />
-
+    -->
     <item
         android:id="@+id/nav_bmi"
         android:icon="@drawable/ic_bmi_black_24dp"
@@ -23,10 +24,8 @@
         android:id="@+id/nav_chart"
         android:icon="@drawable/ic_chart_black_24dp"
         android:title="@string/navChartMenuItem"/>
-    <!--
     <item
         android:id="@+id/nav_game"
         android:icon="@drawable/ic_game_black_24dp"
         android:title="@string/navGameMenuItem"/>
-    -->
 </menu>

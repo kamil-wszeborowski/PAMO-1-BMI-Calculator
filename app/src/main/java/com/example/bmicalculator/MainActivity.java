@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectedFragment = null;
 
                     switch (item.getItemId()) {
-                        case R.id.nav_home:
-                            selectedFragment = new HomeFragment();
-                            break;
+                        //case R.id.nav_home:
+                        //    selectedFragment = new HomeFragment();
+                        //    break;
                         case R.id.nav_bmi:
                             selectedFragment = new BmiFragment();
                             break;
@@ -49,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
                             break;
                         case R.id.nav_chart:
                             selectedFragment = new ChartFragment();
+                            break;
+                        case R.id.nav_game:
+                            selectedFragment = new GameFragment();
+                            break;
+                        default:
+                            selectedFragment = new HomeFragment();
                             break;
                     }
 

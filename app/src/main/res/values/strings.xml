@@ -10,7 +10,7 @@
         <string name="navCaloriesMenuItem">Calories</string>
         <string name="navRecipeMenuItem">Recipe</string>
         <string name="navChartMenuItem">Charts</string>
-        <string name="navGameMenuItem">Corona game</string>
+        <string name="navGameMenuItem">Game</string>
     <!--/Navigation-->
 
     <!--Home-->
@@ -72,6 +72,16 @@
         <string name="pieChartBtn">Deaths</string>
         <string name="polarChartBtn">Cure</string>
     <!--/Chart-->
+
+    <!--Corona Game-->
+    <!--Game-->
+        <string name="results_format">Shots fired: %1$d\nTotal time: %2$.1f</string>
+        <string name="reset_game">Reset Game</string>
+        <string name="win">You win!</string>
+        <string name="lose">You lose!</string>
+        <string name="time_remaining_format">Time remaining: %.1f seconds</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Game-->
 
     <!--For java -->
         <string name="descriptionUnderweight">Underweight</string> <!--Niedowaga-->
