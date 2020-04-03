@@ -19,5 +19,14 @@
         android:id="@+id/nav_recipe"
         android:icon="@drawable/ic_recipe_24dp"
         android:title="@string/navRecipeMenuItem"/>
-
+    <item
+        android:id="@+id/nav_chart"
+        android:icon="@drawable/ic_chart_black_24dp"
+        android:title="@string/navChartMenuItem"/>
+    <!--
+    <item
+        android:id="@+id/nav_game"
+        android:icon="@drawable/ic_game_black_24dp"
+        android:title="@string/navGameMenuItem"/>
+    -->
 </menu>

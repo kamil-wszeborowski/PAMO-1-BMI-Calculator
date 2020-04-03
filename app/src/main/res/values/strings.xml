@@ -8,7 +8,9 @@
         <string name="navHomeMenuItem">Home</string>
         <string name="navBmiMenuItem">BMI</string>
         <string name="navCaloriesMenuItem">Calories</string>
-        <string name="navRecipeMenuItem">Recommended recipe</string>
+        <string name="navRecipeMenuItem">Recipe</string>
+        <string name="navChartMenuItem">Charts</string>
+        <string name="navGameMenuItem">Corona game</string>
     <!--/Navigation-->
 
     <!--Home-->
@@ -64,6 +66,12 @@
 
         <string name="recipeFirstDescriptionImageView">Chicken soup!</string>
     <!--/Recipe-->
+
+    <!--Chart-->
+        <string name="barChartBtn">Infection</string>
+        <string name="pieChartBtn">Deaths</string>
+        <string name="polarChartBtn">Cure</string>
+    <!--/Chart-->
 
     <!--For java -->
         <string name="descriptionUnderweight">Underweight</string> <!--Niedowaga-->

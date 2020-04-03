@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.nav_recipe:
                             selectedFragment = new RecipeFragment();
                             break;
+                        case R.id.nav_chart:
+                            selectedFragment = new ChartFragment();
+                            break;
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
@@ -55,4 +58,6 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
             };
+
+
 }
