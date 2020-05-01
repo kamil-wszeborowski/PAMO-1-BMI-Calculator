@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+<body>
+
+<canvas id="bar-chart" width="800" height="450"></canvas>
+
+<script>
+    new Chart(document.getElementById("bar-chart"), {
+        type: 'bar',
+        data: {
+            labels: ["USA", "Italy", " Spain", "China", "Poland"],
+            datasets: [{
+                label: "Infection",
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
+                data: [175669, 105792, 94417, 81518, 2215]
+
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            title: {
+                display: true,
+                text: 'Coronavirus infection-selected countries for 2020.03.31'
+            }
+        }
+    });
+</script>
+
+
+<script>
+
+</script>
+
+</body>
+</html>
